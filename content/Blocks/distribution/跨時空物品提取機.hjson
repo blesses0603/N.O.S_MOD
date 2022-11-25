@@ -9,4 +9,8 @@ description:可以從很遠的建築上提取物品。
     category: distribution
     requirements: []
     research: cheat-item
+requirements: [
+n.o.s_mod-赤銅錠/50
+n.o.s_mod-赤鐵錠/50
+]
 

@@ -9,4 +9,7 @@ description:可以將物品推送很遠的建築上
     category: distribution
     requirements: []
     research: chrono-unloader
-
+requirements: [
+n.o.s_mod-赤銅錠/50
+n.o.s_mod-赤鐵錠/50
+]
