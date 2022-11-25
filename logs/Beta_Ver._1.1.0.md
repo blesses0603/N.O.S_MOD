@@ -19,7 +19,5 @@
      - ![This is an image](/sprites/items/貧鈾.png)貧鈾
 
 2. 修正
-
-   - ![This is an image](/sprites/blocks/multi/碳壓縮機.png)精煉機配方
-   - ![This is an image](/sprites/blocks/multi/碳壓縮機.png)綜合加工機配方
-   - ![This is an image](/sprites/blocks/multi/碳壓縮機.png)綜合加工機配方
+   - 精煉機配方
+   - 綜合加工機配方
