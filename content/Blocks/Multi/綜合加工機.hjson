@@ -80,22 +80,6 @@ recipes: [
         }
         {
             input:{
-                items:[
-                coal/5
-            ]
-                fluids:water/0.75
-                power: 1.25
-                
-            }
-            output:{
-                items: [
-                n.o.s_mod-焦碳
-                ]
-            }
-            craftTime: 150
-        }
-        {
-            input:{
                 items: n.o.s_mod-鈾/5
                 power: 2.5
                 fluids:water/1.25
