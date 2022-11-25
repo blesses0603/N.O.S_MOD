@@ -21,4 +21,13 @@
 2. 修正
 
    - ![This is an image](sprites/blocks/multi/碳壓縮機.png)精煉機配方
+<<<<<<< HEAD
    - ![This is an image](sprites/blocks/multi/碳壓縮機.png)綜合加工機配方
+=======
+   - ![This is an image](sprites/blocks/multi/碳壓縮機.png)綜合加工機配方
+
+### 歷史版本
+- 版本號:Beta Ver. 1.0.0
+  - 版本更新內容
+
+>>>>>>> 57f9220d5c54858d689394e5352727fa5884e7c9
