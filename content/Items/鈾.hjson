@@ -1,0 +1,9 @@
+name:鈾
+description:具高強度輻射的礦物
+color:3e8948FF
+flammability: 0.0
+temperature: 0.0
+heatCapacity: 1.5
+viscosity: 0.0
+explosiveness: 0.0
+radioactivity: 2.5

@@ -1,0 +1,9 @@
+name:貧鈾
+description:從鈾提煉加工出的產物
+color:3e8948FF
+flammability: 0.0
+temperature: 0.0
+heatCapacity: 1.5
+viscosity: 0.0
+explosiveness: 0.0
+radioactivity: 4

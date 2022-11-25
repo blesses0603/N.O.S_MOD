@@ -58,6 +58,20 @@ drawer: {
                 }
             ]
         }
+        {
+
+            type: DrawMulti
+
+            drawers: [
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawFlame
+                    color: ffef99
+                }
+            ]
+        }
         ]
         }
 recipes: [
@@ -65,7 +79,7 @@ recipes: [
             input:{
                 items: [
                 n.o.s_mod-赤銅錠/5
-                n.o.s_mod-焦炭/10
+                n.o.s_mod-焦碳/10
                 ]
                 power: 1.5
                 fluids:water
@@ -79,7 +93,7 @@ recipes: [
             input:{
                 items: [
                 n.o.s_mod-赤鐵錠/5
-                n.o.s_mod-焦炭/10
+                n.o.s_mod-焦碳/10
                 ]
                 power: 1.5
                 fluids:water
@@ -94,13 +108,26 @@ recipes: [
                 items: [
                 n.o.s_mod-精煉鐵錠/2
                 n.o.s_mod-精煉銅錠/2
-                n.o.s_mod-焦炭/5
+                n.o.s_mod-焦碳/5
                 ]
                 power: 2
                 fluids:water/1.25
             }
             output:{
                 items: n.o.s_mod-精煉銅鐵錠/1
+            }
+            craftTime: 450
+        }
+         {
+            input:{
+                items: [
+                n.o.s_mod-焦碳/4
+                ]
+                power: 2.5
+                fluids:water/1.25
+            }
+            output:{
+                items: n.o.s_mod-碳晶/1
             }
             craftTime: 450
         }
