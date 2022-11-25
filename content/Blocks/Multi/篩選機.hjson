@@ -1,0 +1,52 @@
+localizedName:篩選機
+description:用礦物質分選出各種礦粉
+type: multicraft.MultiCrafter
+liquidCapacity: 200
+itemCapacity: 36
+size: 2
+health: 700
+category: crafting
+menu: Detailed
+requirements: [
+copper/50
+lead/25
+]
+research: {
+  parent: surge-alloy
+  requirements: [
+    copper/25
+    lead/25
+  ]
+}
+drawer: {
+    type: multicraft.DrawRecipe
+    drawers: [
+        {
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawFlame
+                    color: ffef99
+                }
+            ]
+        }
+        ]
+        }
+recipes: [
+        {
+            input:{
+                power: 1
+                fluids:n.o.s_mod-礦物質/1.5
+            }
+            output:{
+                items: [
+                n.o.s_mod-赤銅沙/3
+                n.o.s_mod-赤鐵沙/1
+                ]
+            }
+            craftTime: 150
+        }
+        ]

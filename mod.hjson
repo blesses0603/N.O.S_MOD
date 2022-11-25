@@ -1,0 +1,7 @@
+name:"N.o.s_Mod"
+displayName:"Nos world Mod"
+author:"Blesses"
+description":"此mod屬於BETA版"
+minGameVersion: "136"
+version: "1.0.0.1"
+dependencies: ["multi-crafter"]

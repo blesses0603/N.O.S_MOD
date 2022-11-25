@@ -1,0 +1,107 @@
+localizedName:精煉機
+description:將礦錠精煉成精錠
+type: multicraft.MultiCrafter
+liquidCapacity: 200
+itemCapacity: 36
+size: 2
+health: 700
+category: crafting
+menu: Detailed
+requirements: [
+n.o.s_mod-赤鐵錠/50
+n.o.s_mod-赤銅錠/50
+n.o.s_mod-銅鐵合金錠/25
+]
+research: {
+  parent: surge-alloy
+  requirements: [
+    copper/500
+    lead/250
+  ]
+}
+drawer: {
+    type: multicraft.DrawRecipe
+    drawers: [
+        {
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawFlame
+                    color: ffef99
+                }
+            ]
+        }
+        {
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawFlame
+                    color: ffef99
+                }
+            ]
+        }
+        {
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawFlame
+                    color: ffef99
+                }
+            ]
+        }
+        ]
+        }
+recipes: [
+        {
+            input:{
+                items: [
+                n.o.s_mod-赤銅錠/5
+                n.o.s_mod-焦炭/10
+                ]
+                power: 1.5
+                fluids:water
+            }
+            output:{
+                items: n.o.s_mod-精煉銅錠/1
+            }
+            craftTime: 450
+        }
+        {
+            input:{
+                items: [
+                n.o.s_mod-赤鐵錠/5
+                n.o.s_mod-焦炭/10
+                ]
+                power: 1.5
+                fluids:water
+            }
+            output:{
+                items: n.o.s_mod-精煉鐵錠/1
+            }
+            craftTime: 450
+        }
+        {
+            input:{
+                items: [
+                n.o.s_mod-精煉鐵錠/2
+                n.o.s_mod-精煉銅錠/2
+                n.o.s_mod-焦炭/5
+                ]
+                power: 2
+                fluids:water/1.25
+            }
+            output:{
+                items: n.o.s_mod-精煉銅鐵錠/1
+            }
+            craftTime: 450
+        }
+        ]

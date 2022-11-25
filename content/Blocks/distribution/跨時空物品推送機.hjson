@@ -1,0 +1,12 @@
+localizedName:跨時空物品推送機
+description:可以將物品推送很遠的建築上
+    size: 2
+    health: 2000
+    update: true
+    solid: true
+    hasItems: true
+    configurable: true
+    category: distribution
+    requirements: []
+    research: chrono-unloader
+

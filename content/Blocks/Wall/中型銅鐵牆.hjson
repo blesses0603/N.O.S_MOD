@@ -1,0 +1,14 @@
+name:中型銅鐵牆
+type:Wall
+description:作者：「還沒想好表示內容。」
+health:3000
+absorbLasers:true
+size:2
+insulated:true
+requirements:[
+赤鐵錠/15
+赤銅錠/15
+銅鐵合金錠/10
+]
+category:defense
+research:

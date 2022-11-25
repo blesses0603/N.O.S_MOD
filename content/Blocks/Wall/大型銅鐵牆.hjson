@@ -1,0 +1,14 @@
+name:大型銅鐵牆
+type:Wall
+description:作者：「還沒想好表示內容。」
+health:7000
+absorbLasers:true
+size:3
+insulated:true
+requirements:[
+赤鐵錠/25
+赤銅錠/25
+銅鐵合金錠/15
+]
+category:defense
+research:

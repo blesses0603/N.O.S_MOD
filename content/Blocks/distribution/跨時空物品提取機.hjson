@@ -1,0 +1,12 @@
+localizedName:跨時空物品提取機
+description:可以從很遠的建築上提取物品。
+    size: 2
+    health: 2000
+    update: true
+    solid: true
+    hasItems: true
+    configurable: true
+    category: distribution
+    requirements: []
+    research: cheat-item
+

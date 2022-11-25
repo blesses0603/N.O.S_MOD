@@ -1,0 +1,19 @@
+	type: SolidPump
+	name: 礦物質MK1機
+	description: 顧名思義就是抽取礦物質…
+	size: 2
+	health: 250
+	pumpAmount: 0.25
+	result:礦物質
+	rotateSpeed: 3
+	attribute:water
+	liquidCapacity:30
+	consumes: {
+		power: 3
+	}
+	requirements: [
+		lead/100
+		copper/100 
+	]
+	category: production
+	research: water-extractor

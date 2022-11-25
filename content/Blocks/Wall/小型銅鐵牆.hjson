@@ -1,0 +1,14 @@
+name:小型銅鐵牆
+type:Wall
+description:作者：「還沒想好表示內容。」
+health:750
+absorbLasers:true
+size:1
+insulated:true
+requirements:[
+赤鐵錠/5
+赤銅錠/5
+銅鐵合金錠/5
+]
+category:defense
+research:

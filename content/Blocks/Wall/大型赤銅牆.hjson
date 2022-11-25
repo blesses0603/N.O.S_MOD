@@ -1,0 +1,13 @@
+name:大型赤銅牆
+type:Wall
+description:作者：「還沒想好表示內容。」
+health:5000
+absorbLasers:true
+size:3
+insulated:true
+requirements:[
+赤鐵錠/30
+赤銅錠/60
+]
+category:defense
+research:

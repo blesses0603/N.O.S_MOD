@@ -1,0 +1,9 @@
+name: 礦物質
+type: liquids
+description: 充滿著礦物的水，貌似可在提煉加工
+color: 262b44FF
+flammability: 0.0
+temperature: -0.5
+heatCapacity: 1.5
+viscosity: 0.45
+explosiveness: 0.0
