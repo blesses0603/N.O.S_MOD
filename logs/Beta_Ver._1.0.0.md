@@ -33,8 +33,8 @@
      - ![This is an image](/sprites/blocks/wall/大型銅鐵牆.png)大型銅鐵牆
 
    - 挖掘
-     - ![This is an image](/sprites/blocks/drill/礦物質mk1機.png)礦物質mk1機
-     - ![This is an image](/sprites/blocks/drill/礦物質mk2機.png)礦物質mk2機
+     - ![This is an image](/sprites/blocks/drill/礦物質mk1機-full.png)礦物質mk1機
+     - ![This is an image](/sprites/blocks/drill/礦物質mk2機-full.png)礦物質mk2機
 
    - 物流
      - ![This is an image](/sprites/blocks/distribution/跨時空物品推送機-full.png)礦石空物品推送機
