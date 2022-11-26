@@ -37,8 +37,8 @@
      - ![This is an image](/sprites/blocks/drill/礦物質mk2機.png)礦物質mk2機
 
    - 物流
-     - ![This is an image](/sprites/blocks/distribution/跨時空物品推送機.png)礦石空物品推送機
-     - ![This is an image](/sprites/blocks/distribution/跨時空物品提取機.png)跨時空物品提取機
+     - ![This is an image](/sprites/blocks/distribution/跨時空物品推送機-full.png)礦石空物品推送機
+     - ![This is an image](/sprites/blocks/distribution/跨時空物品提取機-full.png)跨時空物品提取機
 
    - 流體
      - ![This is an image](/sprites/liquids/礦物質.png)礦物質
