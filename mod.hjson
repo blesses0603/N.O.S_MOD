@@ -1,7 +1,13 @@
 name:"N.o.s_Mod"
-displayName:"Nos world Mod"
+displayName:"櫻花星辰(N.o.s_Mod)"
 author:"Blesses"
-description":"此mod屬於BETA版"
+description:"
+[#00FFFF[]]櫻花星辰(N.o.s_Mod)目前還是BETA版
+有任何疑問或建議歡迎至github提問
+
+
+[#FF0000[]][需要依賴下列MOD]
+[#FFFF00[]]MultiCrafter lib-mod"
 minGameVersion: "136"
 version: "1.0.0.1"
 dependencies: ["multi-crafter"]
