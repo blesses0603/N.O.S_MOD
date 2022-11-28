@@ -1,8 +1,8 @@
-const lib = require('nosmod_js/lib');
+const lib = require('nosjs/lib');
 
 const range = 1200;
 const warmupSpeed = 0.05;
-const LINK_LIMIT = 32;
+const LINK_LIMIT = 99;
 
 // Must load region in 'load()'
 let topRegion;
@@ -30,12 +30,12 @@ const outEffect = lib.newEffect(38, e => {
     }));
 });
 
-const blockType = extend(StorageBlock, "跨時空物品提取機", {
+const blockType = extend(StorageBlock, "nosdis-a", {
     load() {
         this.super$load();
-        topRegion = lib.loadRegion("跨時空物品提取機-top");
-        bottomRegion = lib.loadRegion("跨時空物品提取機-bottom");
-        rotatorRegion = lib.loadRegion("跨時空物品提取機-rotator");
+        topRegion = lib.loadRegion("nosdis-a-top");
+        bottomRegion = lib.loadRegion("nosdis-a-bottom");
+        rotatorRegion = lib.loadRegion("nosdis-a-rotator");
     },
     init() {
         this.super$init();

@@ -4,7 +4,7 @@
 	size: 2
 	health: 500
 	pumpAmount: 0.5
-	result:礦物質
+	result:nosl001
 	rotateSpeed: 4.5
 	attribute:water
 	liquidCapacity:60
@@ -12,8 +12,8 @@
 		power: 4.5
 	}
 	requirements: [
-		赤銅錠/50
-		赤鐵錠/25
+		nositems002/50
+		nositems004/25
 	]
 	category: production
 	research: water-extractor

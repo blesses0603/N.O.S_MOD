@@ -1,4 +1,4 @@
-const lib = require('nosmod_js/lib');
+const lib = require('nosjs/lib');
 
 const range = 1200;
 const warmupSpeed = 0.05;
@@ -29,12 +29,12 @@ const inEffect = lib.newEffect(38, e => {
     }));
 });
 
-const blockType = extend(StorageBlock, "跨時空物品推送機", {
+const blockType = extend(StorageBlock, "nosdis-b", {
     load() {
         this.super$load();
-        topRegion = lib.loadRegion("跨時空物品推送機-top");
-        bottomRegion = lib.loadRegion("跨時空物品推送機-bottom");
-        rotatorRegion = lib.loadRegion("跨時空物品推送機-rotator");
+        topRegion = lib.loadRegion("nosdis-b-top");
+        bottomRegion = lib.loadRegion("nosdis-b-bottom");
+        rotatorRegion = lib.loadRegion("nosdis-b-rotator");
     },
     drawPlace(x, y, rotation, valid) {
         Drawf.dashCircle(x * Vars.tilesize, y * Vars.tilesize, range, Pal.accent);

@@ -6,8 +6,8 @@ absorbLasers:true
 size:3
 insulated:true
 requirements:[
-赤鐵錠/30
-赤銅錠/60
+nositems004/30
+nositems002/60
 ]
 category:defense
 research:

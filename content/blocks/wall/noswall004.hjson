@@ -6,9 +6,9 @@ absorbLasers:true
 size:1
 insulated:true
 requirements:[
-赤鐵錠/5
-赤銅錠/5
-銅鐵合金錠/5
+nositems002/5
+nositems004/5
+nositems012/5
 ]
 category:defense
 research:

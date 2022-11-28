@@ -39,12 +39,12 @@ recipes: [
         {
             input:{
                 power: 1
-                fluids:n.o.s_mod-礦物質/1.5
+                fluids:n.o.s_mod-nosl001/1.5
             }
             output:{
                 items: [
-                n.o.s_mod-赤銅沙/3
-                n.o.s_mod-赤鐵沙/1
+                n.o.s_mod-nositems001/3
+                n.o.s_mod-nositems002/1
                 ]
             }
             craftTime: 150

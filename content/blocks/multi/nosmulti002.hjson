@@ -1,0 +1,121 @@
+localizedName:精煉機
+description:將礦錠精煉成精錠
+type: multicraft.MultiCrafter
+liquidCapacity: 200
+itemCapacity: 36
+size: 2
+health: 700
+category: crafting
+menu: Detailed
+requirements: [
+nositems004/50
+nositems002/50
+nositems012/25
+]
+research: {
+  parent: surge-alloy
+  requirements: [
+    copper/500
+    lead/250
+  ]
+}
+drawer: {
+    type: multicraft.DrawRecipe
+    drawers: [
+        {
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawFlame
+                    color: ffef99
+                }
+            ]
+        }
+        {
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawFlame
+                    color: ffef99
+                }
+            ]
+        }
+        {
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawFlame
+                    color: ffef99
+                }
+            ]
+        }
+        {
+
+            type: DrawMulti
+
+            drawers: [
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawFlame
+                    color: ffef99
+                }
+            ]
+        }
+        ]
+        }
+recipes: [
+        {
+            input:{
+                items: [
+                n.o.s_mod-nositems002/5
+                n.o.s_mod-nositems006/10
+                ]
+                power: 1.5
+                fluids:water
+            }
+            output:{
+                items: n.o.s_mod-nositems009/1
+            }
+            craftTime: 450
+        }
+        {
+            input:{
+                items: [
+                n.o.s_mod-nositems004/5
+                n.o.s_mod-nositems006/10
+                ]
+                power: 1.5
+                fluids:water
+            }
+            output:{
+                items: n.o.s_mod-nositems011/1
+            }
+            craftTime: 450
+        }
+        {
+            input:{
+                items: [
+                n.o.s_mod-nositems011/2
+                n.o.s_mod-nositems009/2
+                n.o.s_mod-nositems006/5
+                ]
+                power: 2
+                fluids:water/1.25
+            }
+            output:{
+                items: n.o.s_mod-nositems010/1
+            }
+            craftTime: 450
+        }
+        ]

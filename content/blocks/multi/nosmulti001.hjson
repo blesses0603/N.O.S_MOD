@@ -1,4 +1,4 @@
-localizedName:綜合加工機
+localizedName:碳壓縮機
 description:作者：「目前還想不到任何內容。」
 type: multicraft.MultiCrafter
 liquidCapacity: 200
@@ -8,8 +8,8 @@ health: 700
 category: crafting
 menu: Detailed
 requirements: [
-n.o.s_mod-赤銅錠/50
-n.o.s_mod-赤鐵錠/50
+n.o.s_mod-nositems002/50
+n.o.s_mod-nositems004/50
 ]
 research: {
   parent: surge-alloy
@@ -60,33 +60,33 @@ drawer: {
         ]
         }
 recipes: [
-        {
+         {
             input:{
                 items:[
-                n.o.s_mod-赤銅錠/1
-                n.o.s_mod-赤鐵錠/1
-                n.o.s_mod-焦碳/2
+                coal/5
             ]
-                fluids:water/0.5
-                power: 2
+                fluids:water/0.75
+                power: 1.25
                 
             }
             output:{
                 items: [
-                n.o.s_mod-銅鐵合金錠/1
+                n.o.s_mod-nositems006
                 ]
             }
-            craftTime: 450
+            craftTime: 150
         }
-        {
+         {
             input:{
-                items: n.o.s_mod-鈾/5
+                items: [
+                n.o.s_mod-nositems006/4
+                ]
                 power: 2.5
                 fluids:water/1.25
             }
             output:{
-                items: n.o.s_mod-貧鈾/1
+                items: n.o.s_mod-nositems008/1
             }
-            craftTime: 450
+            craftTime: 300
         }
         ]

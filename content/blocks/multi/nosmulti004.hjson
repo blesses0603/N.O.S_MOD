@@ -1,5 +1,5 @@
-localizedName:碳壓縮機
-description:作者：「目前還想不到任何內容。」
+localizedName:窯燒機
+description:能使原礦窯燒成粗礦的高溫爐。
 type: multicraft.MultiCrafter
 liquidCapacity: 200
 itemCapacity: 36
@@ -8,14 +8,14 @@ health: 700
 category: crafting
 menu: Detailed
 requirements: [
-n.o.s_mod-赤銅錠/50
-n.o.s_mod-赤鐵錠/50
+copper/50
+lead/25
 ]
 research: {
   parent: surge-alloy
   requirements: [
-    copper/25
-    lead/25
+    copper/100
+    lead/50
   ]
 }
 drawer: {
@@ -45,47 +45,34 @@ drawer: {
                 }
             ]
         }
-        {
-            type: DrawMulti
-            drawers: [
-                {
-                    type: DrawDefault
-                }
-                {
-                    type: DrawFlame
-                    color: ffef99
-                }
-            ]
-        }
         ]
         }
 recipes: [
-         {
+        {
             input:{
-                items:[
-                coal/5
-            ]
+                items: [
+                n.o.s_mod-nositems001/2
+                coal
+                ]
+                power: 1
                 fluids:water/0.75
-                power: 1.25
-                
             }
             output:{
-                items: [
-                n.o.s_mod-焦碳
-                ]
+                items: n.o.s_mod-nositems002/1
             }
-            craftTime: 150
+            craftTime: 300
         }
-         {
+        {
             input:{
                 items: [
-                n.o.s_mod-焦碳/4
+                n.o.s_mod-nositems003/2
+                coal
                 ]
-                power: 2.5
-                fluids:water/1.25
+                power: 1
+                fluids:water/0.75
             }
             output:{
-                items: n.o.s_mod-碳晶/1
+                items: n.o.s_mod-nositems004/1
             }
             craftTime: 300
         }

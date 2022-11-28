@@ -1,5 +1,5 @@
-localizedName:跨時空物品推送機
-description:可以將物品推送很遠的建築上
+localizedName:跨時空物品提取機
+description:可以從很遠的建築上提取物品。
     size: 2
     health: 2000
     update: true
@@ -8,8 +8,9 @@ description:可以將物品推送很遠的建築上
     configurable: true
     category: distribution
     requirements: []
-    research: chrono-unloader
+    research: cheat-item
 requirements: [
-n.o.s_mod-赤銅錠/50
-n.o.s_mod-赤鐵錠/50
+nositems002/50
+nositems004/50
 ]
+

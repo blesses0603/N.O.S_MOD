@@ -4,7 +4,7 @@
 	size: 2
 	health: 250
 	pumpAmount: 0.25
-	result:礦物質
+	result:nosl001
 	rotateSpeed: 3
 	attribute:water
 	liquidCapacity:30
